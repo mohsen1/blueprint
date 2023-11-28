@@ -4,11 +4,10 @@
     "main": "src/index.ts",
     "dependencies": {
         "@blueprint/db": "workspace:*",
+        "hash-wasm": "^4.11.0",
         "next-auth": "^4.24.5"
     },
     "devDependencies": {
-        "@blueprint/tsconfig": "workspace:*",
-        "@types/node": "20.8.0",
-        "typescript": "5.2.2"
+        "@blueprint/tsconfig": "workspace:*"
     }
 }
